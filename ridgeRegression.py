@@ -30,7 +30,6 @@ for reg_par, cv_error in zip(ridge_cv.alphas, ridge_cv.cv_values_.T):
 
 # Best 𝜆 and its MSE on validation set
 print("The best 𝜆 is:", ridge_cv.alpha_)
-print("The mean squared error on the validation data is:", mean_squared_error(y_val, ridge_cv.predict(X_poly_val)))
 
 # Extract 𝜆 values and corresponding MSE
 reg_pars = ridge_cv.alphas

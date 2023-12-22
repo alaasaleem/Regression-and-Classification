@@ -53,7 +53,7 @@ Z = b + w[1] * X1 + w[2] * X2 + w[3] * X1**2 + w[4] * X1 * X2 + w[5] * X2**2
 plt.contour(X1, X2, Z, levels=[0], colors='blue', linestyles='--', linewidths=1, label='Quadratic Decision Boundary')
 
 equation = f"y = {b:.2f} + ({w[1]:.2f})x1 + ({w[2]:.2f})x2 + ({w[3]:.2f})x1^2 + ({w[4]:.2f})x1x2 + ({w[5]:.2f})x2^2"
-plt.text(x1_max - 2.3, x2_min + 0.8, equation, fontsize=10, color='green', fontname='Times New Roman',
+plt.text(x1_max - 2.3, x2_min + 0.8, equation, fontsize=10, color='white', fontname='Times New Roman',
          bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
 
 # Display accuracy on the plot
