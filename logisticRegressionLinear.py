@@ -50,16 +50,19 @@ intercept = model.intercept_[0]
 
 # Display the learned equation
 equation = f"y = {-(intercept/coefficients[1]):.2f} - ({coefficients[0]/coefficients[1]:.2f})x1"
-plt.annotate(equation, xy=(0.5, 0.5), xycoords='axes fraction', color='white', fontname='Times New Roman',
-             xytext=(0.387, 0.5), 
-             arrowprops=dict(color='white', arrowstyle='<-', connectionstyle='arc3,rad=-0.7'))
+plt.text(0.387, 0.5, equation, color='white', fontname='Times New Roman', bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
+
 
 # Display accuracy on the plot in a new position
 train_accuracy_text = f"Training Accuracy: {train_accuracy * 100:.2f}%"
 test_accuracy_text = f"Testing Accuracy: {test_accuracy * 100:.2f}%"
 
-plt.text(0.3, 2.4, train_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman')  
-plt.text(0.008, 2.4, test_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman')  
+plt.text(0.3, 2.4, train_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
+         bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
+
+plt.text(0.008, 2.4, test_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
+         bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
+
 
 # Plot settings and legend
 plt.xlabel('x1', fontdict={'fontname': 'Times New Roman', 'fontsize': 14, 'color': 'white'})
