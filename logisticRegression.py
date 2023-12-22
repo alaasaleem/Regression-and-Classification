@@ -17,20 +17,22 @@ class_train = train_dataFrame['class'].values
 model = LogisticRegression()
 model.fit(X_train, class_train)
 
+# Compute training accuracy
+train_accuracy = model.score(X_train, class_train)
+
 # Make predictions on the test data and evaluate accuracy
 class_pred = model.predict(X_test)
-accuracy = accuracy_score(class_test, class_pred)
-print(f"Accuracy: {accuracy}")
+test_accuracy = accuracy_score(class_test, class_pred)
 
 # Set up plot with specific style
 plt.figure(figsize=(8, 6), facecolor='black')
 
-# Scatterplot of training data points with labels for C1 (green) and C2 (orange)
+# Scatterplot of training data points with labels for C1 (green) and C2 (orange) with different markers
 c1_indices = class_train == 'C1'
 c2_indices = class_train == 'C2'
 
-plt.scatter(X_train[c1_indices, 0], X_train[c1_indices, 1], c='green', label='Class C1')
-plt.scatter(X_train[c2_indices, 0], X_train[c2_indices, 1], c='orange', label='Class C2')
+plt.scatter(X_train[c1_indices, 0], X_train[c1_indices, 1], c='red', label='Class C1', marker='s')  # Circle marker
+plt.scatter(X_train[c2_indices, 0], X_train[c2_indices, 1], c='green', label='Class C2', marker='^')  # Square marker
 
 # Decision boundary line equation
 w0 = model.intercept_[0]
@@ -40,7 +42,7 @@ x1 = np.linspace(x1_min, x1_max, 100)
 x2 = -(w0 + w1 * x1) / w2  # Line equation (w0 + w1*x1 + w2*x2 = 0)
 
 # Plotting decision boundary with custom styling and add label
-plt.plot(x1, x2, 'red', linestyle='-', lw=1, label='Linear Decision Boundary')  # Label for the red line
+plt.plot(x1, x2, 'blue', linestyle='-', lw=1, label='Linear Decision Boundary')  # Label for the red line
 
 # Get the coefficients and intercept
 coefficients = model.coef_.flatten()
@@ -51,6 +53,13 @@ equation = f"y = {-(intercept/coefficients[1]):.2f} - ({coefficients[0]/coeffici
 plt.annotate(equation, xy=(0.5, 0.5), xycoords='axes fraction', color='white', fontname='Times New Roman',
              xytext=(0.387, 0.5), 
              arrowprops=dict(color='white', arrowstyle='<-', connectionstyle='arc3,rad=-0.7'))
+
+# Display accuracy on the plot in a new position
+train_accuracy_text = f"Training Accuracy: {train_accuracy * 100:.2f}%"
+test_accuracy_text = f"Testing Accuracy: {test_accuracy * 100:.2f}%"
+
+plt.text(0.3, 2.4, train_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman')  
+plt.text(0.008, 2.4, test_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman')  
 
 # Plot settings and legend
 plt.xlabel('x1', fontdict={'fontname': 'Times New Roman', 'fontsize': 14, 'color': 'white'})
