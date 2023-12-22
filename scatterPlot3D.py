@@ -33,7 +33,6 @@ ax.set_xlabel('x1',**font)
 ax.set_ylabel('x2',**font) 
 ax.set_zlabel('y',**font)  
 
-# Add legend with the updated labels including the number of examples
 legend = ax.legend(bbox_to_anchor=(0.05, 0.6), fontsize=12, facecolor='black', edgecolor='white',
                    prop={'family': 'Times New Roman', 'weight': 'bold'})
 
@@ -46,7 +45,7 @@ fig.patch.set_facecolor('black')
 ax.set_title('Scatter Plot of Training, Validation, and Test Sets', y=1.02,
              fontdict={'fontname': 'Times New Roman', 'fontsize': 27, 'color': 'white'}) 
 
-# Setting the surface color to black
+# Set the surface color to black
 ax.w_xaxis.set_pane_color((0.0, 0.0, 0.0, 1.0))  
 ax.w_yaxis.set_pane_color((0.0, 0.0, 0.0, 1.0)) 
 ax.w_zaxis.set_pane_color((0.0, 0.0, 0.0, 1.0))

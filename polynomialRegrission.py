@@ -102,7 +102,7 @@ for degree in range(1, 11):
 
 print(f"The best fitting model is Degree {best_degree} Polynomial with a validation error of {best_val_error:.4f}")
 
-# Plotting validation error vs polynomial degree curve
+# Plot validation error vs polynomial degree curve
 degrees = range(1, 11)
 # Find the index of the minimum validation error
 min_val_error_idx = np.argmin(val_errors)
