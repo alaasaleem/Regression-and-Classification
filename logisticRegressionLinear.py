@@ -50,17 +50,17 @@ intercept = model.intercept_[0]
 
 # Display the learned equation
 equation = f"y = {-(intercept/coefficients[1]):.2f} - ({coefficients[0]/coefficients[1]:.2f})x1"
-plt.text(0.387, 0.5, equation, color='white', fontname='Times New Roman', bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
+plt.text(-0.97, 1.6, equation, color='white', fontname='Times New Roman', bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
 
 
 # Display accuracy on the plot in a new position
 train_accuracy_text = f"Training Accuracy: {train_accuracy * 100:.2f}%"
 test_accuracy_text = f"Testing Accuracy: {test_accuracy * 100:.2f}%"
 
-plt.text(0.3, 2.4, train_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
+plt.text(-0.74, 1.13, train_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
          bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
 
-plt.text(0.008, 2.4, test_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
+plt.text(-0.75, 1.34, test_accuracy_text, ha='right', fontsize=10, color='green', fontname='Times New Roman', 
          bbox=dict(facecolor='black', edgecolor='white', boxstyle='round,pad=0.5'))
 
 
