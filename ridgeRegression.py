@@ -48,7 +48,7 @@ plt.yticks(color='white', fontname='Times New Roman')
 plt.grid(True, color='white')
 plt.gca().set_facecolor('black')
 
-# Annotating the best Regularization Parameter with an arrow
+# Detect best Regularization Parameter with an arrow
 best_reg_par = ridge_cv.alpha_
 best_error = min(mse_values)
 plt.scatter(best_reg_par, best_error, color='green', s=100, label=f'Lowest Error ({best_error:.4f})')
