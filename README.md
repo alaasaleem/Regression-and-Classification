@@ -1,40 +1,44 @@
-# Model Selection and Hyperparameters Tuning
+# Regression and Classification
+This project involves implementing regression and classification techniques using Python.
 
-This project involves implementing regression and classification techniques using Python. The dataset provided (`data_reg.csv`) comprises 200 examples, each containing attributes `x1` and `x2`, along with a continuous target label `y`.
+> This project is an assignment of the **Machine Learning and Data Science (ENCS5341) course** at [Birzeit University](https://www.birzeit.edu).
 
-## Task 1: Data Preparation and Visualization
+## Part 1: Model Selection and Hyperparameters Tuning
 
-- **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets (120, 40, and 40 examples, respectively).
-- **Visualization:** Generate a 3D scatter plot, plotting `x1` and `x2` on the x and y axes, respectively. Encode the target label `y` as the z-axis, using different colors for each set.
+The dataset provided (`data_reg.csv`) contains 200 examples, each containing attributes `x1` and `x2`, corresponding with a continuous target label `y`.
 
-## Task 2: Polynomial Regression
+### Task 1: Data Splitting and Visualization
+
+- **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets.
+- **Visualization:** Generate a 3D scatter plot showing the distribution of the three sets.
+<video width="320" height="240" controls>
+  <source src="C:\Users\User\Downloads\Scatter Plot 3D.mp4" type="video/mp4">
+</video>
+
+### Task 2: Polynomial Regression
 
 - **Modeling:** Apply polynomial regression (degrees 1 to 10) on the training set.
-- **Validation:** Determine the best polynomial degree by plotting the validation error versus polynomial degree curve.
-- **Visualization:** Plot the surface of the learned function alongside training examples for each polynomial degree.
+- **Validation:** Justify the best polynomial degree via a validation error vs polynomial degree curve.
+![Placeholder for Validation Error vs Polynomial Degree Curve](path/to/your/validation_error_curve.png)
 
-## Task 3: Ridge Regression
+- **Degree Surface Videos:** 
+    - [Video for Degree 1](path/to/your/video_degree_1.mp4)
+    - [Video for Degree 2](path/to/your/video_degree_2.mp4)
+    - ... (up to Degree 10)
 
-- **Implementation:** Implement ridge regression with a polynomial of degree 8 on the training set.
-- **Parameter Tuning:** Choose the best regularization parameter from options: {0.001, 0.005, 0.01, 0.1, 10}.
-- **Evaluation:** Plot the Mean Squared Error (MSE) on the validation set versus the regularization parameter.
+### Task 3: Ridge Regression
 
-## Logistic Regression
+- **Modeling:** Apply ridge regression with a polynomial of degree 8 on the training set.
+- **Parameter Tuning:** Choose the best regularization parameter.
+- **Visualization:** Plot the Mean Squared Error (MSE) vs the regularization parameter.
+![Placeholder for MSE vs Regularization Parameter Plot](path/to/your/MSE_vs_regularization.png)
+
+## Part 2: Logistic Regression
 
 For the classification task, the dataset includes `train_cls.csv` for training and `test_cls.csv` for testing.
 
 ### Task 1: Linear Decision Boundary
 
-- **Model Learning:** Utilize scikit-learn's logistic regression to learn a model with a linear decision boundary.
-- **Visualization:** Plot the decision boundary on a scatter plot of the training set.
-- **Accuracy:** Calculate training and testing accuracies for the learned model.
-
-### Task 2: Quadratic Decision Boundary
-
-- **Modeling:** Repeat Task 1 but with a quadratic decision boundary.
-
-### Task 3: Model Evaluation
-
-Comment on the learned models from Tasks 1 and 2, discussing potential overfitting or underfitting concerns.
-
----
+- **Modeling:** Apply logistic regression to learn a model with a linear decision boundary.
+- **Visualization:** Show the decision boundary on a scatter plot of the training set.
+![Placeholder for Linear Decision Boundary Plot](path/to/your/linear_decision_boundary.png)
