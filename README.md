@@ -20,6 +20,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 - **Validation:** Justify the best polynomial degree via a validation error vs polynomial degree curve.
 
 > *The Best Polynomial Degree:*
+
   ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/1897923d-b2d2-4e79-8b4c-baa9f7ca87b2)
 
 > *Validation Error vs Polynomial Degree Curve:*
@@ -61,6 +62,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 - **Modeling:** Apply ridge regression with a polynomial of degree 8 on the training set.
 - **Parameter Tuning:** Choose the best regularization parameter.
 > *The Best Regularization Parameter:*
+
   ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/2b1ba69b-7030-4869-b663-efb045054cc1)
 
 - **Visualization:** Plot the Mean Squared Error (MSE) vs the regularization parameter.
