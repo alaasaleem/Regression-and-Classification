@@ -19,11 +19,11 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 - **Modeling:** Apply polynomial regression (degrees 1 to 10) on the training set.
 - **Validation:** Justify the best polynomial degree via a validation error vs polynomial degree curve.
 - **Validation Error vs Polynomial Degree Curve:**
-https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3aecbdb2-1cc9-4ac9-ab60-4ae59329a899
+![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3aecbdb2-1cc9-4ac9-ab60-4ae59329a899)
 
 - **Degree Surface Results:** 
 > Degree 1
-https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/c38fa326-47f3-4a08-9f9e-a1e695893634
+![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/c38fa326-47f3-4a08-9f9e-a1e695893634)
 
 
 ### Task 3: Ridge Regression
