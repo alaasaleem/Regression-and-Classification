@@ -11,7 +11,6 @@ y = dataFrame['y'].values  # Target variable y
 X_main, X_test, y_main, y_test = train_test_split(X, y, test_size=40, shuffle=False) #split the data set into main (160 examples) and test (last 40 examples)
 X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, test_size=40, shuffle=False) # split the main (160 examples) into training (first 120 examples) and validation (last 40 examples)
 
-
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(projection='3d')
 

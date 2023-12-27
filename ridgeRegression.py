@@ -62,4 +62,3 @@ for text in legend.get_texts():
     text.set_color('white')
     
 plt.show()
-

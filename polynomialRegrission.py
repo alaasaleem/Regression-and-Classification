@@ -131,4 +131,4 @@ legend = plt.legend(loc='upper right', fontsize=12, facecolor='black', edgecolor
 for text in legend.get_texts(): 
     text.set_color('white')
 
-plt.show()
+plt.show() 
