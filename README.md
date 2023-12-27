@@ -1,4 +1,4 @@
-# Regression and Classification
+# Regression and Classification Project
 This project involves implementing regression and classification techniques using Python.
 
 > This project is an assignment of the Machine Learning and Data Science (ENCS5341) course at [Birzeit University](https://www.birzeit.edu).
