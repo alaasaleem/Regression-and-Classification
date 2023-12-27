@@ -11,7 +11,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 
 - **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets.
 - **Visualization:** Generate a 3D scatter plot showing the distribution of the three sets.
-![Scatter Plot 3D](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3c5db745-55c4-4104-94ca-a1d674c41074)
+https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3c5db745-55c4-4104-94ca-a1d674c41074
 
 ### Task 2: Polynomial Regression
 
