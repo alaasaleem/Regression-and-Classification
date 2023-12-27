@@ -12,7 +12,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 - **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets.
 - **Visualization:** Generate a 3D scatter plot showing the distribution of the three sets.
 > *3D scatter plot:*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/8100e3ca-1099-4b5d-bc26-9c70d2f377d3)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/8100e3ca-1099-4b5d-bc26-9c70d2f377d3)
 
 ### Task 2: Polynomial Regression
 
@@ -27,45 +27,45 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 
 > *Degree Surface Results:*
 > *Degree 1*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/c38fa326-47f3-4a08-9f9e-a1e695893634)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/c38fa326-47f3-4a08-9f9e-a1e695893634)
 
 > *Degree 2*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/7ff6df08-cf92-4976-8e8b-c94500d12276)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/7ff6df08-cf92-4976-8e8b-c94500d12276)
 
 > *Degree 3*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/e19e8f6f-baba-4a28-9e94-d8256716e78c)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/e19e8f6f-baba-4a28-9e94-d8256716e78c)
 
 > *Degree 4*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/8acf0612-8406-4531-b7b3-a3856bc0e35d)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/8acf0612-8406-4531-b7b3-a3856bc0e35d)
 
 > *Degree 5*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/bc3d345e-2afc-4796-82cb-870cd01c4718)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/bc3d345e-2afc-4796-82cb-870cd01c4718)
 
 > *Degree 6*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/03752f53-a8da-4229-bfd5-6fdceb9276b4)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/03752f53-a8da-4229-bfd5-6fdceb9276b4)
 
 > *Degree 7*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/5d072a1f-b765-4cb0-9824-7e02be9d2fb7)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/5d072a1f-b765-4cb0-9824-7e02be9d2fb7)
 
 > *Degree 8*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/9714d545-1445-4c70-bb3c-9d0fb6a3af21)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/9714d545-1445-4c70-bb3c-9d0fb6a3af21)
 
 > *Degree 9*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/35f0591e-26aa-4674-880f-bacc7e67d2c1)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/35f0591e-26aa-4674-880f-bacc7e67d2c1)
 
 > *Degree 10*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/1d2b7b3f-844d-44cc-8f9c-e277edd21666)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/1d2b7b3f-844d-44cc-8f9c-e277edd21666)
 
 ### Task 3: Ridge Regression
 
 - **Modeling:** Apply ridge regression with a polynomial of degree 8 on the training set.
 - **Parameter Tuning:** Choose the best regularization parameter.
 > *The Best Regularization Parameter:*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/2b1ba69b-7030-4869-b663-efb045054cc1)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/2b1ba69b-7030-4869-b663-efb045054cc1)
 
 - **Visualization:** Plot the Mean Squared Error (MSE) vs the regularization parameter.
 > *MSE vs Regularization Parameter Plot:*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/d1fa71cd-d432-4d7b-9b0f-2f8fc340e8c5)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/d1fa71cd-d432-4d7b-9b0f-2f8fc340e8c5)
 
 ## Part 2: Logistic Regression
 
@@ -76,13 +76,13 @@ For the classification task, the dataset includes `train_cls.csv` for training a
 - **Modeling:** Apply logistic regression to learn a model with a linear decision boundary.
 - **Visualization:** Show the decision boundary on a scatter plot of the training set.
 > *Linear Decision Boundary Plot with Accuracy results:*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/e50a7f6b-df5a-463d-ae98-22a0e98b3721)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/e50a7f6b-df5a-463d-ae98-22a0e98b3721)
 
 ### Task 2: Quadratic Decision Boundary
 
 - **Modeling:** Repeat Task 1 but with a quadratic decision boundary.
 > *Quadratic Decision Boundary Plot with Accuracy results:*
-![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/b2728de9-fbac-408c-9803-bf22eacee0ae)
+  ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/b2728de9-fbac-408c-9803-bf22eacee0ae)
 
 ## Usage
 
