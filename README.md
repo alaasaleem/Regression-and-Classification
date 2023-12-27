@@ -11,18 +11,20 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 
 - **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets.
 - **Visualization:** Generate a 3D scatter plot showing the distribution of the three sets.
-https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3c5db745-55c4-4104-94ca-a1d674c41074
+- **3D scatter plot:**
+
 
 ### Task 2: Polynomial Regression
 
 - **Modeling:** Apply polynomial regression (degrees 1 to 10) on the training set.
 - **Validation:** Justify the best polynomial degree via a validation error vs polynomial degree curve.
-![Validation Error vs Polynomial Degree Curve](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3aecbdb2-1cc9-4ac9-ab60-4ae59329a899)
+- **Validation Error vs Polynomial Degree Curve:**
+https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3aecbdb2-1cc9-4ac9-ab60-4ae59329a899
 
-- **Degree Surface Videos:** 
-    - [Video for Degree 1](path/to/your/video_degree_1.mp4)
-    - [Video for Degree 2](path/to/your/video_degree_2.mp4)
-    - ... (up to Degree 10)
+- **Degree Surface Results:** 
+> Degree 1
+https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/c38fa326-47f3-4a08-9f9e-a1e695893634
+
 
 ### Task 3: Ridge Regression
 
