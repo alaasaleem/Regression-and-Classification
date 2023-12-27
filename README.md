@@ -60,7 +60,9 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 
 - **Modeling:** Apply ridge regression with a polynomial of degree 8 on the training set.
 - **Parameter Tuning:** Choose the best regularization parameter.
-  
+> *The Best Regularization Parameter:*
+![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/2b1ba69b-7030-4869-b663-efb045054cc1)
+
 - **Visualization:** Plot the Mean Squared Error (MSE) vs the regularization parameter.
 > *MSE vs Regularization Parameter Plot:*
 ![image](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/d1fa71cd-d432-4d7b-9b0f-2f8fc340e8c5)
