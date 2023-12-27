@@ -11,7 +11,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 
 - **Data Splitting:** Read `data_reg.csv` and split it into training, validation, and testing sets.
 - **Visualization:** Generate a 3D scatter plot showing the distribution of the three sets.
-![3D Scatter Plot Video](https://raw.githubusercontent.com/alaasaleem/Hyperparameter-Tuning/main/Scatter%20Plot%203D.mp4)
+[https://raw.githubusercontent.com/alaasaleem/Hyperparameter-Tuning/main/Scatter%20Plot%203D.mp4](https://github.com/alaasaleem/Hyperparameter-Tuning/blob/main/Scatter%20Plot%203D.mp4)
 
 
 
