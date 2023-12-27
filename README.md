@@ -17,7 +17,7 @@ https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3c5db745-55
 
 - **Modeling:** Apply polynomial regression (degrees 1 to 10) on the training set.
 - **Validation:** Justify the best polynomial degree via a validation error vs polynomial degree curve.
-![Placeholder for Validation Error vs Polynomial Degree Curve](path/to/your/validation_error_curve.png)
+![Validation Error vs Polynomial Degree Curve](https://github.com/alaasaleem/Hyperparameter-Tuning/assets/127680801/3aecbdb2-1cc9-4ac9-ab60-4ae59329a899)
 
 - **Degree Surface Videos:** 
     - [Video for Degree 1](path/to/your/video_degree_1.mp4)
