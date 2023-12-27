@@ -14,6 +14,7 @@ The dataset provided (`data_reg.csv`) contains 200 examples, each containing att
 ![3D Scatter Plot Video](https://raw.githubusercontent.com/alaasaleem/Hyperparameter-Tuning/main/Scatter%20Plot%203D.mp4)
 
 
+
 ### Task 2: Polynomial Regression
 
 - **Modeling:** Apply polynomial regression (degrees 1 to 10) on the training set.
