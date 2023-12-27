@@ -92,12 +92,12 @@ For the classification task, the dataset includes `train_cls.csv` for training a
 
 **Clone the Repository:**
    ```bash
-   git clone https://github.com/alaasaleem/Hyperparameter-Tuning
-   cd Hyperparameter-Tuning
+   git clone https://github.com/alaasaleem/Regression-and-Classification/tree/main
+   cd Regression-and-Classification
    ```
 ### Running Scripts
 
-*Ensure you have Python installed*
+*Ensure you h Python installed*
 
 *Ensure data_reg.csv, train_cls.csv, and test_cls.csv are in the same directory as the scripts.*
 
